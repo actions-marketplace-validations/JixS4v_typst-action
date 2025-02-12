@@ -4,6 +4,9 @@ Build Typst documents using GitHub workflows.
 
 Forked to update the options handling which was throwing errors
 
+DISCLAIMER: Version of typst was made to be fixed because the docker image was pulling release candidates instead of full releases. This means it will need updating.
+
+
 ## Minimal example
 
 The following `.github/workflows/build.yaml` action compiles `main.typ` to `main.pdf` on every push.
